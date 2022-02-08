@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<title>PokeChallenge</title>
+</head>
+<body>
+	<header>
+		<h1>Pokechallenge</h1>
+		<nav>
+			<a href="./pokedex.html">Pokedex</a>
+			<a href="https://pokeapi.co/docs/v2">API</a>
+		</nav>
+	</header>
+	<main id="root">
+		<section class="searcher">
+			<img src="./img/PokeApi.png" alt="Imagen de PokeApi">
+			<p>Ingresa el numero de pokemones que deseas ver</p>
+			<div>
+				<input type="number" id="num_pokemons">
+				<button class="search-icon" v-on:click="getData()"></button>
+			</div>
+		</section>
+		<section class="wraper">
+			<section class="pokemon_card" v-for="pokemon in results">
+				<h2>{{ pokemon.name }}</h2>
+			</section>
+		</section>
+	</main>
+	<footer>
+		<p>Made with 💡 by <a href="https://github.com/MauricioJCarrillo/18.pokechallenge_mi_aguila">@MauricioJCarrillo</a></p>
+	</footer>
+	<script src="https://unpkg.com/vue@next"></script>
+	<script src="./index.js"></script>
+</body>
+</html>

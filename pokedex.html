@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<title>PokeChallenge</title>
+</head>
+<body>
+	<header>
+		<h1>Pokechallenge</h1>
+		<nav>
+			<a href="./pokedex.html">Pokedex</a>
+			<a href="https://pokeapi.co/docs/v2">API</a>
+		</nav>
+	</header>
+	<main id="root">
+		<section class="searcher">
+			<img src="./img/PokeApi.png" alt="Imagen de PokeApi">
+            <p>Ingresa el numero del ID del Pokemon que deseas atrapar</p>
+			<div>
+				<input type="number" id="id_pok">
+				<button class="search-icon" v-on:click="getData1()"></button>
+			</div>
+		</section>
+		<section class="character_container ">
+            <section class="left">
+                <p>Id:</p>
+                <p>Nombre:</p>
+                <p>Peso:</p>
+                <p>Habilidad 1:</p>
+                <p>Habilidad 2:</p>
+                <p>Imagen:</p>
+            </section>
+            <section class="right">
+                <p>{{ pokemon.id }}</p>
+                <p>{{ pokemon.name }}</p>
+                <p>{{ pokemon.height }}</p>
+                <p>{{ habilidad1.name }}</p>
+                <p>{{ habilidad2.name }}</p>
+                <img v-bind:src="imagen">
+            </section>
+		</section>
+	</main>
+	<footer>
+		<p>Made with 💡 by <a href="https://github.com/MauricioJCarrillo/18.pokechallenge_mi_aguila">@MauricioJCarrillo</a></p>
+	</footer>
+	<script src="https://unpkg.com/vue@next"></script>
+	<script src="./index.js"></script>
+</body>
+</html>
