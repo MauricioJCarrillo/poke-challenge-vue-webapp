@@ -4,8 +4,7 @@ This a technical test using Vue.js 3
 
 ## GitHub Pages:
 
-[Practice - Pokechallenge](https://mauriciojcarrillo.github.io/
-18.pokechallenge_mi_aguila)
+[Practice - Pokechallenge](https://mauriciojcarrillo.github.io/18.pokechallenge_mi_aguila)
 
 ## Technologies and concepts:
 
