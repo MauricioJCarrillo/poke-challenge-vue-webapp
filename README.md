@@ -1,12 +1,12 @@
-# Pokechallenge_mi_aguila
+# Pokechallenge webapp
 
 This a technical test using Vue.js 3
 
-## GitHub Pages:
+## GitHub Pages
 
-[Practice - Pokechallenge](https://mauriciojcarrillo.github.io/18.pokechallenge_mi_aguila)
+[Pokechallenge webapp](https://mauriciojcarrillo.github.io/pokechallenge-webapp)
 
-## Technologies and concepts:
+## Technologies and concepts
 
 - HTML.
 - CSS.
@@ -14,10 +14,9 @@ This a technical test using Vue.js 3
 - Vue.js 3.
 - Responsive Design.
 
-## Nota:
+## Nota
 
 This project is not finished yet. This have 2 functionalities:
 
 - Search a rank of pokemons, number given by the user.
-
 - Search a pokemon by its ID given by the user.
