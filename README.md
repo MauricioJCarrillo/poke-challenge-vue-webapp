@@ -4,7 +4,7 @@ This a technical test using Vue.js 3
 
 ## GitHub Pages
 
-[Pokechallenge webapp](https://mauriciojcarrillo.github.io/pokechallenge-webapp)
+[Pokechallenge webapp](https://mauriciojcarrillo.github.io/poke-challenge-vue-webapp)
 
 ## Technologies and concepts
 
